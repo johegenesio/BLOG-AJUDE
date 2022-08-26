@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor0: #5469EB;
+    --cor1: #1e1e1e;
+    --cor2: #EBBF31;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: var(--cor0);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+
+    margin-bottom: 0px;
+
+
+}
+
+nav > a {
+    margin-left: 50px;
+
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+main > section#ong, section#sobre {
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section#ong > h2 {
+    text-align: center;
+
+    padding: 45px 0px;
+    margin: 0px;
+
+    color: var(--cor2);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+section#ong > div {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+section#ong > div > article {
+    min-width: 100px;
+    max-width: 300px;
+
+    text-align: center;
+
+    margin: auto;
+
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px #ffffff;
+}
+
+section#ong > div > article > h3 {
+    color: var(--cor1);
+}
+
+section#ong > div > article > p {
+    color: #5c5c5c;
+}
+
+section#ong > div > article > a {
+    text-decoration: none;
+
+    color: #ffffff;
+
+    background-color: var(--cor0);
+    padding: 8px 15px;
+    border-radius: 25px;
+}
