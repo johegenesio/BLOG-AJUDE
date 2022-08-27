@@ -5,7 +5,7 @@
 :root {
     --cor0: #5469EB;
     --cor1: #1e1e1e;
-    --cor2: #EBBF31;
+    --cor2: #ffd035;
 }
 
 * {
@@ -23,9 +23,9 @@ span {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
-    padding: 20px;
+    padding: 35px;
 }
 
 nav {
@@ -33,8 +33,8 @@ nav {
     align-items: center;
 }
 
-nav > h1 {
-    font-size: 1.5em;
+header > h1 {
+    font-size: 1.8em;
     font-weight: 700;
 
     margin-bottom: 0px;
@@ -47,8 +47,15 @@ nav > a {
 
     text-decoration: none;
     color: var(--cor1);
-    font-size: 1.05em;
+    font-size: 1.4em;
     font-weight: 600;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: var(--cor0);
+
+    transition: 300ms all ease-out;
 }
 
 main > section#ong, section#sobre {
@@ -63,7 +70,7 @@ section#ong > h2 {
     padding: 45px 0px;
     margin: 0px;
 
-    color: var(--cor2);
+    color: var(--cor0);
     font-weight: 700;
     font-size: 3em;
 }
@@ -81,7 +88,7 @@ section#ong > div > article {
 
     text-align: center;
 
-    margin: auto;
+    margin: 0px auto auto auto;
 
     background-color: #fafafa;
     border-radius: 15px;
@@ -100,9 +107,32 @@ section#ong > div > article > p {
 section#ong > div > article > a {
     text-decoration: none;
 
-    color: #ffffff;
+    color: var(--cor1);
+    font-weight: 500;
+    font-size: 1em;
 
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     padding: 8px 15px;
     border-radius: 25px;
+}
+
+footer {
+    background-color: var(--cor0);
+
+    border-radius: 10px 10px 0px 0px;
+
+    color: #ffffff;
+
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 30px 50px;
+    margin: 60px auto auto auto;
+    text-align: center;
+}
+
+footer > h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.2em;
+    padding: 15px 0px;
 }
