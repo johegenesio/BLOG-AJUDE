@@ -76,19 +76,19 @@ section#ong > h2 {
 }
 
 section#ong > div {
-    display: flex;
-    align-items: center;
-
     margin-bottom: 50px;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: stretch;
 }
 
 section#ong > div > article {
     min-width: 100px;
-    max-width: 300px;
+    max-width: 350px;
 
     text-align: center;
-
-    margin: 0px auto auto auto;
 
     background-color: #fafafa;
     border-radius: 15px;
