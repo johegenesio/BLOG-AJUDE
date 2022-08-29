@@ -116,6 +116,10 @@ section#ong > div > article > a {
     border-radius: 25px;
 }
 
+picture, img {
+    margin-bottom: 15px;
+}
+
 footer {
     background-color: var(--cor0);
 
