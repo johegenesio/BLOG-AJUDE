@@ -90,7 +90,7 @@ section#ong > div {
     margin-bottom: 50px;
     
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     align-items: stretch;
 }
