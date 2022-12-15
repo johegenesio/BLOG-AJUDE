@@ -162,7 +162,7 @@ picture, img {
 footer {
     background-color: var(--cor1);
 
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 30px;
 
     color: #ffffff;
     padding: 30px 50px;
