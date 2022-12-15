@@ -15,6 +15,9 @@
 
 html {
     background-color: var(--cor0);
+
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -22,6 +25,8 @@ body {
     background-color: #f5f5f5;
     max-width: 1250px;
     border-radius: 30px;
+
+    margin: 40px 0px 40px 0px;
 }
 
 span {
