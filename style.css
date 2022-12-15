@@ -46,6 +46,9 @@ nav {
 }
 
 @media (max-width: 600px) {
+    body {
+        margin: 0%;
+    }
     nav, header {
         display: flex;
         flex-direction: column;
@@ -163,8 +166,6 @@ footer {
 
     color: #ffffff;
 
-    max-width: 1200px;
-    min-width: 300px;
     padding: 30px 50px;
     margin: 60px auto auto auto;
     text-align: center;
